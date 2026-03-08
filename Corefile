@@ -1,0 +1,9 @@
+.:53 {
+    hosts {
+        10.3.152.100 notebook-server
+        fallthrough
+    }
+    forward . 8.8.8.8 8.8.4.4
+    log
+    errors
+}
