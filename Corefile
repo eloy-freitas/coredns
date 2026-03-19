@@ -1,6 +1,8 @@
 .:53 {
     hosts {
         10.3.152.100 notebook-server
+        10.3.152.102 pi-server
+        10.3.152.101 desktop-server
         fallthrough
     }
     forward . 8.8.8.8 8.8.4.4
